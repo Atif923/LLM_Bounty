@@ -1,1 +1,6 @@
-# LLM_Bounty
+# Mental Health Assistant Chatbot Implementation
+
+This code implements a mental health assistant chatbot using LLaMA for text generation and BERT for sentiment analysis. It processes user inputs to determine sentiment, retrieves relevant responses from a dataset, or generates original responses when no match is found. The Gradio interface allows users to interact with the chatbot, providing an intuitive platform to receive support and advice. The assistant adjusts its responses based on the sentiment detected, ensuring a compassionate and context-aware interaction.
+
+### About the Dataset
+The Amod/mental_health_counseling_conversations dataset [Health Counseling Dataset](https://huggingface.co/datasets/Amod/mental_health_counseling_conversations), obtained from Hugging Face Datasets, comprises questions and answers from two online counseling platforms, covering various mental health topics. Responses are provided by qualified psychologists, making the dataset suitable for fine-tuning language models to enhance their ability to offer mental health advice. Each data instance includes a "Context" (the user's question) and a "Response" (the psychologist's answer). The dataset is in English, and while it may contain sensitive information, all data has been anonymized to ensure privacy. Users can create custom data splits as needed.
